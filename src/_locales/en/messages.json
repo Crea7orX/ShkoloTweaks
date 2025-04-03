@@ -112,5 +112,11 @@
     },
     "ControlTestsTitle": {
         "message": "Control Tests"
+    },
+    "ShkoloTweeksRankLabal": {
+        "message": " place in ShkoloTweaks"
+    },
+    "ShkoloTweeksRankTooltip": {
+        "message": "<b>This is your global ranking on the ShkoloTweaks leaderboard.</b>"
     }
 }

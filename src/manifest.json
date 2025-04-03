@@ -26,6 +26,9 @@
 		"*://*.shkolotweaks.xyz/*",
 		"*://*.shkolotweaks.web.app/*"
 	],
+	"background": {
+		"service_worker": "service-worker.js"
+	},
 	"content_scripts": [
 		{
 			"matches": [
@@ -59,7 +62,8 @@
 			"js": [
 				"js/widgets/schedule.js",
 				"js/widgets/countdown.js",
-				"js/widgets/control_tests.js"
+				"js/widgets/control_tests.js",
+				"js/leaderboard_stat.js"
 			],
 			"run_at": "document_end"
 		},
